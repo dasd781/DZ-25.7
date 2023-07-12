@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DZ-25.7.cpp" />
+    <ClCompile Include="BadLogincpp.cpp" />
+    <ClCompile Include="BadPassword.cpp" />
+    <ClCompile Include="Chat.cpp" />
+    <ClCompile Include="DataBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BadLogin.h" />
+    <ClInclude Include="BadPassword.h" />
+    <ClInclude Include="Chat.h" />
+    <ClInclude Include="DataBase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
